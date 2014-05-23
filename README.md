@@ -2,14 +2,6 @@ locales Cookbook
 ================
 Installs/Configures locale for ubuntu
 
-Requirements
-------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
-#### packages
-- `toaster` - locales needs toaster to brown your bagel.
-
 Attributes
 ----------
 
@@ -24,7 +16,7 @@ Attributes
   <tr>
     <td><tt>['locales']['lang']</tt></td>
     <td>String</td>
-    <td>Locale to include</td>
+    <td>Locale to set</td>
     <td><tt>NONE</tt></td>
   </tr>
 </table>
